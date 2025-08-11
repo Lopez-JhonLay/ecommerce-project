@@ -1,6 +1,6 @@
 import "./OrdersPage.css";
 
-import Header from "../components/Header";
+import Header from "../../components/Header";
 
 function OrdersPage() {
 	return (
