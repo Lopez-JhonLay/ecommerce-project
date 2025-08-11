@@ -1,9 +1,22 @@
 import "./App.css";
 
+import { Routes, Route } from "react-router";
+
 import HomePage from "./pages/HomePage";
 
 function App() {
-	return <HomePage />;
+	return (
+		<Routes>
+			<Route
+				path="/"
+				element={<HomePage />}
+			/>
+			<Route
+				path="/checkout"
+				element={<CheckoutPage />}
+			/>
+		</Routes>
+	);
 }
 
 export default App;
