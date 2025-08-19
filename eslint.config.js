@@ -32,6 +32,7 @@ export default [
 				{ allowConstantExport: true },
 			],
 			"react/react-in-jsx-scope": "off", // Not needed in React 17+
+			"react/prop-types": "off",
 		},
 		settings: {
 			react: {
